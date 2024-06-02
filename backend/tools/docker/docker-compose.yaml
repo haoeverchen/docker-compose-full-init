@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  backend:
+    image: openjdk:17
+    container_name: backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    volumes:
+      - "../../target/backend.jar:/app/backend.jar"
+    entrypoint: ["java", "-jar", "/app/backend.jar"]

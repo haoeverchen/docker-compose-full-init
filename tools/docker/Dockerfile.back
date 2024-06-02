@@ -1,0 +1,11 @@
+# Dockerfile.back
+FROM openjdk:17
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the built jar file into the image
+COPY ../../backend/target/backend.jar /app/backend.jar
+
+# Run the jar file
+ENTRYPOINT ["java", "-jar", "/app/backend.jar"]

@@ -1,0 +1,90 @@
+### Java (Spring Boot) ###
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven directory
+target/
+
+# Eclipse metadata
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+### Angular ###
+# Dependencies
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+
+# IDE - VSCode
+.vscode/
+
+# IDE - WebStorm/PhpStorm/other JetBrains IDEs
+.idea/
+
+# Log files
+*.log
+*.out
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### OS Files ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external drives
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+### Others ###
+# Environment variables
+.env
+
+# Lock files
+*.lock
+
+# Misc
+*.swp
+*~

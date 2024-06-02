@@ -30,17 +30,6 @@ target/
 hs_err_pid*
 replay_pid*
 
-### Angular ###
-# Dependencies
-/node_modules/
-/package-lock.json
-/yarn.lock
-
-# Compiled output
-/dist/
-/tmp/
-/out-tsc/
-
 # IDE - VSCode
 .vscode/
 

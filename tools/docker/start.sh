@@ -3,10 +3,8 @@
 script_dir=$(dirname "$(realpath "$0")")
 echo "Script directory: $script_dir"
 
-# Ensure all containers, networks, and volumes created by compose are removed
-# echo "Stopping and removing any existing Docker containers managed by compose..."
-# cd "$script_dir"
-# docker-compose down --remove-orphans
+cd "$script_dir"
+docker kill backend_demo
 
 # Build .jar with Maven
 cd "$script_dir"/../../backend

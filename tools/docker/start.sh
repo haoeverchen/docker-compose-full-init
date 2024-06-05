@@ -5,6 +5,7 @@ echo "Script directory: $script_dir"
 
 cd "$script_dir"
 docker kill backend_demo
+docker kill frontend_demo
 
 # Build .jar with Maven
 cd "$script_dir"/../../backend

@@ -9,11 +9,11 @@ if ! mvn clean install; then
   echo "Maven build failed, exiting."
   exit 1
 fi
-
+docker kill backend
 # Build docker compose
 cd "$script_dir"
 echo "Returned to script directory for Docker Compose: $(pwd)"
-if ! docker-compose up -d; then
+if ! docker-compose up -d --build; then
   echo "Docker Compose failed to start, exiting."
   exit 1
 fi

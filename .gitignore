@@ -95,8 +95,8 @@ Desktop.ini
 
 # Node
 frontend/node_modules
-npm-debug.log
-yarn-error.log
+frontend/npm-debug.log
+frontend/yarn-error.log
 
 # IDEs and editors
 .idea/
@@ -116,14 +116,14 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+frontend/.angular/cache
+frontend/.sass-cache/
+frontend/connect.lock
+frontend/coverage
+frontend/libpeerconnection.log
+frontend/testem.log
+frontend/typings
 
 # System files
-.DS_Store
-Thumbs.db
+*/.DS_Store
+*/Thumbs.db

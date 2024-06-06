@@ -1,11 +1,31 @@
+### Global ###
+# OS generated files #
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files #
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/*
+
 ### Java (Spring Boot) ###
-# Compiled class files
+# Compiled class files #
 *.class
 
-# Log files
-*.log
-
-# Java package files
+# Package files #
 *.jar
 *.war
 *.nar
@@ -14,109 +34,42 @@
 *.tar.gz
 *.rar
 
-# Maven directory
+# Maven #
 target/
 
-# Eclipse metadata
+# IDE - Eclipse #
+.editorconfig
 .classpath
 .project
 .settings/
 
-# IntelliJ IDEA project files
-.idea/
-*.iml
+# IntelliJ IDEA project files #
+*.iws
 
-# Virtual machine crash logs
+# Virtual machine crash logs #
 hs_err_pid*
 replay_pid*
 
-# IDE - VSCode
-.vscode/
-
-# IDE - WebStorm/PhpStorm/other JetBrains IDEs
-.idea/
-
-# Log files
+# Log files #
 *.log
 *.out
 
-# Editor directories and files
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+### Angular ###
+# Compiled output #
+frontend/dist
+frontend/tmp
+frontend/out-tsc
+frontend/bazel-out
 
-### OS Files ###
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external drives
-.Spotlight-V100
-.Trashes
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-### Others ###
-# Environment variables
-.env
-
-# Lock files
-*.lock
-
-# Misc
-*.swp
-*~
-
-
-
-
-
-
-
-### Angular Original ###
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
-
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
+# Node #
 frontend/node_modules
 frontend/npm-debug.log
 frontend/yarn-error.log
 
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
+# Angular cache #
 frontend/.angular/cache
+
+# Misc Angular files #
 frontend/.sass-cache/
 frontend/connect.lock
 frontend/coverage
@@ -124,6 +77,10 @@ frontend/libpeerconnection.log
 frontend/testem.log
 frontend/typings
 
-# System files
-*/.DS_Store
-*/Thumbs.db
+### Lock files ###
+*.lock
+
+### Misc ###
+*.env
+*.swp
+*~
